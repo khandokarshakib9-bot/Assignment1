@@ -70,12 +70,13 @@ header{
 }
 
 .btn-outline {
-    background:transparent;
+    
     color: #ffffff;
     padding: 16px 12px;
     cursor: pointer;
     border: 1x solid #ffffff;
     border-radius: 4px;
+    background: linear-gradient(rgba(42, 40, 40, 0.75) rgba(42, 40, 40, 0.75));
 }
 
 .hero{
