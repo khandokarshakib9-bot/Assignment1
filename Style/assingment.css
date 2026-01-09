@@ -81,8 +81,9 @@ header{
 }
 
 .hero{
-    padding: 100px ;
+    padding: 130px ;
     margin: 0;
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +92,9 @@ header{
     justify-content: center;
     overflow: hidden;
     color: white;
+   
 }
+
 .hero-bg{
     position: absolute;
     inset: 0;
@@ -104,7 +107,8 @@ header{
 
 .hero-container{
     max-width: 540px;
-    margin-left: 120px;
+    width: 100%;
+    height: 100%;
 }
 
 .bdg {
@@ -113,7 +117,7 @@ header{
     border-radius: 999px;
     font-size: 14px;
     display: inline-block;
-    margin-bottom: 40px;  
+    margin-top: 30px;  
 }
 
 .hero h1{
