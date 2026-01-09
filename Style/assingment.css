@@ -20,6 +20,7 @@ header{
     display: flex;
     max-width: 1140px;
     align-items: center;
+    background-color: #ffffff;
     justify-content: space-between;
     padding: 20px;
 }
@@ -29,12 +30,12 @@ header{
     align-items: center;
     gap: 10px;  
 }
-.menu a{
+.menu {
+   display: flex;
+   justify-content: center;
    align-items: center;
-    text-decoration: none;
-    font-size: 16px;
+   padding: 10px 5%;
 }
-
  .btn {
     background-color: #30B868;
     border: none;
@@ -136,14 +137,14 @@ header{
 
 .problems{
     background-color: #ffffff;
-    padding-top: 0px;
+    gap: 30px;
     padding: 20px 120px 120px 120px;
-    margin-bottom: 80px;
 }
 .cta, .container{
     background-color: #f7f6f2d0;
     border: 1x solid rgb(235, 203, 180);
     padding: 80px 40px;
+    border-radius: 4px;
 }
 
 .container{
