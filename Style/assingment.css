@@ -138,6 +138,7 @@ header{
 .problems{
     background-color: #ffffff;
     gap: 30px;
+    margin-top: 130px;
     padding: 20px 120px 120px 120px;
 }
 .cta, .container{
