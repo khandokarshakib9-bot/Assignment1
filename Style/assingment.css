@@ -72,12 +72,12 @@ header{
 
 .btn-outline {
     
-    color: #ffffff;
+    color: #fafafa;
+    border: 1px solid #ffffff;
     padding: 16px 12px;
     cursor: pointer;
-    border: 1x solid #ffffff;
     border-radius: 4px;
-    background: linear-gradient(rgba(42, 40, 40, 0.75) rgba(42, 40, 40, 0.75));
+    background: transparent ;  
 }
 
 .hero{
@@ -143,7 +143,7 @@ header{
 .problems{
     background-color: #ffffff;
     gap: 30px;
-    margin-top: 130px;
+    margin-top: 100px;
     padding: 20px 120px 120px 120px;
 }
 .cta, .container{
@@ -306,6 +306,10 @@ header{
     margin-bottom: 10px;
     font-size: 16px;
     color: #ffffff;
+}
+
+.Social-icons{
+    cursor: pointer;
 }
 .footer-bottom{
     padding: 20px 0;
